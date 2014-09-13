@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bissection_root.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bissection_root.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bissection_root.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57416266" vertical-offset="0" max-vertical-offset="627">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newton_raphson.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newton_raphson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48803827" vertical-offset="0" max-vertical-offset="627">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -62,6 +72,7 @@
         <option value="$PROJECT_DIR$/debt_pay_off.py" />
         <option value="$PROJECT_DIR$/bissection_guesser.py" />
         <option value="$PROJECT_DIR$/bissection_root.py" />
+        <option value="$PROJECT_DIR$/newton_raphson.py" />
       </list>
     </option>
   </component>
@@ -134,25 +145,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.bissection_root">
-    <configuration default="false" name="convert_float_binary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="introcs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_float_binary.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.newton_raphson">
     <configuration default="false" name="debt_pay_off" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,6 +213,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="introcs" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bissection_root.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="newton_raphson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="introcs" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newton_raphson.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -347,19 +358,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.convert_float_binary" />
-      <item index="1" class="java.lang.String" itemvalue="Python.debt_pay_off" />
-      <item index="2" class="java.lang.String" itemvalue="Python.debt_pay_off_bisection" />
-      <item index="3" class="java.lang.String" itemvalue="Python.bissection_guesser" />
-      <item index="4" class="java.lang.String" itemvalue="Python.bissection_root" />
+      <item index="0" class="java.lang.String" itemvalue="Python.debt_pay_off" />
+      <item index="1" class="java.lang.String" itemvalue="Python.debt_pay_off_bisection" />
+      <item index="2" class="java.lang.String" itemvalue="Python.bissection_guesser" />
+      <item index="3" class="java.lang.String" itemvalue="Python.bissection_root" />
+      <item index="4" class="java.lang.String" itemvalue="Python.newton_raphson" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bissection_root" />
-        <item index="1" class="java.lang.String" itemvalue="Python.bissection_guesser" />
-        <item index="2" class="java.lang.String" itemvalue="Python.debt_pay_off_bisection" />
-        <item index="3" class="java.lang.String" itemvalue="Python.debt_pay_off" />
-        <item index="4" class="java.lang.String" itemvalue="Python.convert_float_binary" />
+        <item index="0" class="java.lang.String" itemvalue="Python.newton_raphson" />
+        <item index="1" class="java.lang.String" itemvalue="Python.bissection_root" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bissection_guesser" />
+        <item index="3" class="java.lang.String" itemvalue="Python.debt_pay_off_bisection" />
+        <item index="4" class="java.lang.String" itemvalue="Python.debt_pay_off" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +394,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12830189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25170842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25170842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -577,8 +588,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bissection_root.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57416266" vertical-offset="0" max-vertical-offset="627">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newton_raphson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48803827" vertical-offset="0" max-vertical-offset="627">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>

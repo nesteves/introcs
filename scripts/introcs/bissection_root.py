@@ -1,7 +1,7 @@
 __author__ = 'nunoe'
 
 def bissection_root(value, power, epsilon):
-    """ function used to find the root of a given value
+    """ function used to find the root of a given value through bissection search
 
     :param value: int, number for which we want to find the root
     :param power: int, power that turns the root into the given value
