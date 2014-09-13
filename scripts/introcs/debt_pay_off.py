@@ -2,7 +2,13 @@ __author__ = 'nunoe'
 
 
 def minimum_payment(start_balance, annual_rate, year_limit):
+    """" function docstring
 
+    :param start_balance:
+    :param annual_rate:
+    :param year_limit:
+    :return: the minimum amount to be paid for the loan monthly
+    """
     current_guess = 0
     end_balance = start_balance
 
