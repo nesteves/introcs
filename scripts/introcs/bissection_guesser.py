@@ -8,7 +8,8 @@ def guess_number(lower_bound, upper_bound):
     while answer != 'c':
         current_guess = (lower_bound + upper_bound) / 2
         print 'Is your secret number ' + str(current_guess) + '?'
-        answer = raw_input("Enter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed correctly. ")
+        answer = raw_input("Enter 'h' to indicate the guess is too high. Enter 'l'"
+                           " to indicate the guess is too low. Enter 'c' to indicate I guessed correctly. ")
         if answer == 'h':
             upper_bound = current_guess
         elif answer == 'l':
