@@ -8,8 +8,8 @@ def bissection_root(value, power, epsilon):
     :param epsilon: float, tolerance used when testing the root
     :return: float, the root of the given value
     """
-    lower_bound = min(0, value)
-    upper_bound = max(0, value)
+    lower_bound = min(-1, value)
+    upper_bound = max(1, value)
     result = 0.0
     while abs(result ** power - value) >= epsilon:
         if result ** power > value:
