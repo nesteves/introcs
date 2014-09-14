@@ -33,11 +33,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fibonacci_calc.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fibonacci_calc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fibonacci_calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40063593" vertical-offset="0" max-vertical-offset="629">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_palindrome.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_palindrome.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="684">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find_char.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find_char.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6295707" vertical-offset="0" max-vertical-offset="629">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +86,8 @@
         <option value="$PROJECT_DIR$/greatest_common_divisor.py" />
         <option value="$PROJECT_DIR$/towers_of_hanoi.py" />
         <option value="$PROJECT_DIR$/fibonacci_calc.py" />
+        <option value="$PROJECT_DIR$/test_palindrome.py" />
+        <option value="$PROJECT_DIR$/find_char.py" />
       </list>
     </option>
   </component>
@@ -138,8 +160,8 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.fibonacci_calc">
-    <configuration default="false" name="bissection_root" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.find_char">
+    <configuration default="false" name="fibonacci_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -151,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="introcs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bissection_root.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacci_calc.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -211,7 +233,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="fibonacci_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="find_char" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -223,7 +245,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="introcs" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibonacci_calc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_char.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -350,20 +372,39 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.bissection_root" />
-      <item index="1" class="java.lang.String" itemvalue="Python.newton_raphson" />
-      <item index="2" class="java.lang.String" itemvalue="Python.greatest_common_divisor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.towers_of_hanoi" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fibonacci_calc" />
+    <configuration default="false" name="test_palindrome" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="introcs" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_palindrome.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_palindrome" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fibonacci_calc" />
+      <item index="2" class="java.lang.String" itemvalue="Python.newton_raphson" />
+      <item index="3" class="java.lang.String" itemvalue="Python.greatest_common_divisor" />
+      <item index="4" class="java.lang.String" itemvalue="Python.towers_of_hanoi" />
+      <item index="5" class="java.lang.String" itemvalue="Python.find_char" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fibonacci_calc" />
-        <item index="1" class="java.lang.String" itemvalue="Python.towers_of_hanoi" />
-        <item index="2" class="java.lang.String" itemvalue="Python.greatest_common_divisor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.newton_raphson" />
-        <item index="4" class="java.lang.String" itemvalue="Python.bissection_root" />
+        <item index="0" class="java.lang.String" itemvalue="Python.find_char" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fibonacci_calc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.towers_of_hanoi" />
+        <item index="3" class="java.lang.String" itemvalue="Python.greatest_common_divisor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.newton_raphson" />
       </list>
     </recent_temporary>
   </component>
@@ -629,8 +670,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fibonacci_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40063593" vertical-offset="0" max-vertical-offset="629">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="684">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_char.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6295707" vertical-offset="0" max-vertical-offset="629">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
