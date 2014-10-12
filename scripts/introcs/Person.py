@@ -124,12 +124,14 @@ class Grades(object):
 
     def get_students(self):
         """  Returns all the students in the grade book
-        :return: list, all the students in the grade book
+            Notice that this is a generator method and will return one student at a time
+        :return: student
         """
         if not self.is_sorted:
             self.students.sort()
             self.is_sorted = True
-        return self.students[:]
+        for s in self.students:
+            yield s
 
 
 def grade_report(course):
