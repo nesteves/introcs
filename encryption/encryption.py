@@ -106,12 +106,25 @@ def find_best_shift(word_list, text):
     :param text: str, the text to be decrypted
     :return: int >= 0 and < 26
     """
+    best_shift = 0
+    valid_word_count = 0
 
+    for k in range(1, 26):
+        shifted_text = apply_shift(text, k)
+        current_valid_word_count = sum([1 for word in shifted_text.split(' ') if is_word(word_list, word)])
+
+        if current_valid_word_count > valid_word_count:
+            valid_word_count = current_valid_word_count
+            best_shift = k
+
+    return best_shift
 
 def decrypt_story():
     """ Decrypts the store given by get_story_string().
     :return: str, the decrypted story
     """
+    story = get_story_string()
+    return apply_shift(story, find_best_shift(word_list, story))
 
 
 if __name__ == '__main__':
@@ -119,6 +132,11 @@ if __name__ == '__main__':
 
     word_list = load_words()
 
-    s = apply_shift('Hello, world!', 8)
+    # s = apply_shift('Hello, world!', 8)
+    # print s
+    s = 'eysez fbtuty dQQvsp'
     best_shift = find_best_shift(word_list, s)
-    assert apply_shift(s, best_shift) == 'Hello, world!'
+    print str(best_shift)
+    print apply_shift(s, best_shift)
+
+    print decrypt_story()
